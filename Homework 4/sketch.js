@@ -5,6 +5,7 @@ var cowGirlObjects = [];
 var cowGirlRunObjects = [];
 var i = 0;
 var j = 0;
+var k = 0;
 var x = 0;
 var counter = 0;
 
@@ -99,8 +100,6 @@ function draw() {
     {
         image(animation[i], cowGirlObjects[i].getX(), cowGirlObjects[i].getY());
     }
-    
-
 }
 
 function incrementIndex()
@@ -125,3 +124,4 @@ function incrementRunIndex()
          j = 0;
      }
 }
+
