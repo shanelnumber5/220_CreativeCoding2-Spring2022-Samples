@@ -1,4 +1,4 @@
-class imageclass{
+class cowgirlImage{
 
     constructor(path, x, y)
     {
